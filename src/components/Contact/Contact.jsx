@@ -10,6 +10,7 @@ const Contact = () => {
   const form = useRef();
   const [done, setDone] = useState(false)
   const [message, setMessage] = useState("");
+  const notify = () => toast("Email sent successfully");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -24,7 +25,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
-          const notify = () => toast("Email sent successfully");
+        
           setDone(true);
           // form.reset("");
         },
