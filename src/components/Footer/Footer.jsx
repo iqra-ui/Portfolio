@@ -15,6 +15,8 @@ const Footer = () => {
           <Insta color="white" size={"3rem"} />
           <Facebook color="white" size={"3rem"} />
           <Gitub color="white" size={"3rem"} />
+          <img src={"../image/linkedin.png"} height={60} size={"3rem"}/>
+         
           {/* <span id="text" >Created by iqranoor</span> */}
         </div>
         

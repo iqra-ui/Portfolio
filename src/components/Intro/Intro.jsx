@@ -41,8 +41,8 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/iqra-ui"><img src={Github} alt="" /></a>
-          <a href="https://www.linkedin.com/in/iqra-noor-041673244/" >
+          <a href="https://github.com/iqra-ui" target="_blank"><img src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/iqra-noor-041673244/" target="_blank" >
           <img src={LinkedIn} alt="" />
             </a>
           {/* <img src={Instagram} alt="" /> */}

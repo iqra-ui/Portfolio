@@ -41,12 +41,12 @@ const Portfolio = () => {
           <Col className="p">
           
    
-        <a href="https://vaneezay-rhnh.vercel.app/"><img src={"../../image/project1.png"} alt=""  /></a>
+        <a href="https://vaneezay-rhnh.vercel.app/" target="_blank"><img src={"../../image/project1.png"} alt=""  /></a>
    
     </Col>
     <Col className="p">
      
-        <a href="https://zara-ashy.vercel.app/"><img src={"../../image/project2.png"} alt=""  /></a>
+        <a href="https://zara-ashy.vercel.app/" target="_blank"><img src={"../../image/project2.png"} alt=""  /></a>
    
      </Col>
      </Row>
