@@ -41,12 +41,26 @@ const Portfolio = () => {
           <Col className="p">
           
    
-        <a href="https://vaneezay-rhnh.vercel.app/" target="_blank"><img src={"../../image/project1.png"} alt=""  /></a>
-   
+        <a href="https://vaneezay-rhnh.vercel.app/" target="_blank">
+          <img  id="pimg" src={"https://img.freepik.com/premium-photo/online-shopping-with-tablet-red-women-s-dress-ecommerce-web-page_176814-1621.jpg"} alt=""  />
+          <div class="overlay">
+    <div class="textOver">VANEEZAY</div>
+  </div>
+        
+        </a>
+        {/* <div className="inner">
+           <p>zara</p>
+        </div> */}
     </Col>
-    <Col className="p">
+    <Col className="p1">
      
-        <a href="https://zara-ashy.vercel.app/" target="_blank"><img src={"../../image/project2.png"} alt=""  /></a>
+        <a href="https://zara-ashy.vercel.app/" target="_blank">
+          <img id="pimg" src={"https://fashionunited.com/cdn-cgi/image/fit=cover,format=auto,gravity=center,height=926,quality=70,width=1388/https://static.fashionunited.com/202011/Zara_like_1.jpg"} alt=""  />
+          <div class="overlay1">
+    <div class="textOver">International-ZARA</div>
+  </div>
+          </a>
+
    
      </Col>
      </Row>
