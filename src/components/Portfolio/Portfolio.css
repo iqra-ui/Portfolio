@@ -4,13 +4,16 @@
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  
 
 }
+
 /* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
+  margin-top: 600px;
 }
 
 .portfolio span:nth-of-type(2) {
@@ -21,6 +24,7 @@
 .p{
   padding: 5px;
   position: relative;
+  
  
 }
 .p1{
@@ -36,6 +40,7 @@
   opacity: 1.0;
  display: block;
 }
+
 /* .overlay {
   position: absolute;
   bottom: 100%;

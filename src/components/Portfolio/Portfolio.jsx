@@ -16,6 +16,7 @@ const Portfolio = () => {
   return (
 
     <div className="portfolio" id="portfolio" >
+     
     
       {/* heading */}
       <span className="recent" style={{color: darkMode?'white': ''}}>Recent Projects</span>
@@ -36,35 +37,47 @@ const Portfolio = () => {
         </SwiperSlide>
         
       </Swiper> */}
-       <Container  className=" projects">
-        <Row>
-          <Col className="p">
+       <div  className=" projects">
+        <div>
+          <div className="p">
           
    
         <a href="https://vaneezay-rhnh.vercel.app/" target="_blank">
-          <img  id="pimg" src={"https://img.freepik.com/premium-photo/online-shopping-with-tablet-red-women-s-dress-ecommerce-web-page_176814-1621.jpg"} alt=""  />
+          <img  id="pimg" src={"../image/project.jpeg"} alt=""  />
           <div class="overlay">
     <div class="textOver">VANEEZAY</div>
   </div>
         
         </a>
-        {/* <div className="inner">
-           <p>zara</p>
-        </div> */}
-    </Col>
-    <Col className="p1">
+      
+           </div>
+           <div className="p">
+          
+   
+        {/* <a href="https://vaneezay-rhnh.vercel.app/" target="_blank">
+          <img  id="pimg" src={"../image/project.jpeg"} alt=""  />
+          <div class="overlay">
+    <div class="textOver">VANEEZAY</div>
+  </div>
+        
+        </a> */}
+      
+           </div>
+          <div className="p1">
      
         <a href="https://zara-ashy.vercel.app/" target="_blank">
-          <img id="pimg" src={"https://fashionunited.com/cdn-cgi/image/fit=cover,format=auto,gravity=center,height=926,quality=70,width=1388/https://static.fashionunited.com/202011/Zara_like_1.jpg"} alt=""  />
+          <img id="pimg" src={"https://static.independent.co.uk/2022/05/14/16/newFile.jpg"} alt=""  />
           <div class="overlay1">
     <div class="textOver">International-ZARA</div>
   </div>
           </a>
 
    
-     </Col>
-     </Row>
-      </Container>
+          </div>
+
+
+      </div>
+    </div>
 
      
  
