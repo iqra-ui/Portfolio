@@ -4,7 +4,10 @@
     height: 80vh;
     /* margin-top: 4rem; */
       /* scroll */
-  padding-top: 40rem;
+  /* padding-top: 40rem; */
+}
+#get{
+    padding-top: 20rem;
 }
 
 .c-right{
