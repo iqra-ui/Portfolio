@@ -131,8 +131,8 @@
   .i-right {
     transform: scale(0.8);
     left: -3rem;
-    display: none;
-    top: 0px;
+    visibility: hidden;
+    top: -2px;
   }
   .i-right .blur {
     display: none;
